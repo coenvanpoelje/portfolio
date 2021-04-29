@@ -1,8 +1,6 @@
-# NgscullyNetlifyCmsStarter
+# Portfolio Coen van Poelje
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5bf952a3-e982-46f7-a7ae-4563d579a828/deploy-status)](https://app.netlify.com/sites/competent-lewin-2c7ffa/deploys)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.7, Scully (Static Site Generator), Netlify CMS.
-
-![Angular Scully Netlify CMS Starter](https://github.com/mbaljeetsingh/ngscully-netlify-cms-starter/blob/master/src/assets/ngscully.jpg)
 
 ## Development server
 
