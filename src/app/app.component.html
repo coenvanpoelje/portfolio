@@ -1,0 +1,44 @@
+<header>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span [routerLink]="['/']">ngScully Netlify CMS Starter</span>
+      <span class="spacer"></span>
+      <button mat-button [routerLink]="['/']">
+        <mat-icon>home</mat-icon> Home
+      </button>
+      <button mat-button [routerLink]="['/blog']">
+        <mat-icon>dehaze</mat-icon> Blog
+      </button>
+      <button mat-button [routerLink]="['/courses']">
+        <mat-icon>dehaze</mat-icon> Courses
+      </button>
+      <button mat-button [routerLink]="['/about']">
+        <mat-icon>info</mat-icon> About
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <!-- <ul>
+  <li *ngFor="let route of scully.available$ | async">
+    <a [routerLink]="route.route">{{ route.title || route.route }}</a>
+  </li>
+</ul> -->
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+
+  <!-- <p>heomllo</p>
+  <p>heomllo</p>
+  <p>heomllo</p> -->
+</main>
+
+<!-- <footer>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span
+        >Created by
+        <a href="http://www.baljeetsingh.in/">Baljeet Singh</a></span
+      >
+    </mat-toolbar-row>
+  </mat-toolbar>
+</footer> -->
